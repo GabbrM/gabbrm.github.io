@@ -27,13 +27,16 @@
   <div class="container2">
     <h1 class="title">Recordatorios de Medicamentos</h1>
     <form id="reminder-form">
+      <label for="medicine-name">Nombre del medicamento:</label>
       <input type="text" id="medicine-name" placeholder="Nombre del medicamento" required>
+      <label for="dosage">Dosis:</label>
       <input type="text" id="dosage" placeholder="Dosis" required>
+      <label for="reminder-time">Hora del recordatorio:</label>
       <input type="time" id="reminder-time" required>
+      
       <button type="submit">Agregar Recordatorio</button>
     </form>
   </div>
-  
   
   <div id="reminder-list"></div>
   
